@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeroNova_X Project</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('file:///C:/Users/Dell/Downloads/pixlr-image-generator-428d0099-ce2f-4216-8c17-41a3e5bbc77c.webp') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .main-section {
+      padding: 50px;
+      margin: 20px auto;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .secondary-section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #ffd700;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.8);
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+
+    nav ul li a:hover {
+      background: #ffd700;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    form button {
+      background: #ffd700;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #fff;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="cpt.png" alt="AeroNova Logo" class="logo-image" width="100px" >
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#specifications">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#future-innovations">Future Innovations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <div class="logo-section" style="text-align: center;">
+    <div class="logo">
+        <img src="cpt.png" alt="Logo" width="400px" >
+</div>
+</div>
+
+  <!-- Main Section: Home -->
+  <section id="home" class="section-home main-section">
+    <div class="secondary-section" id="about-us">
+      <h2>About Us</h2>
+      <p>We are a group of passionate avionics students from the University of Saad Dahleb Blida 1, Institute of Aeronautics and Space Studies. Currently in our third year of avionics, we are deeply fascinated by electronics, with a particular focus on the electronics of airplanes. This shared passion has led us to create this website, AeroNova_X, where we showcase all the projects and innovations we've developed as a team, as well as the exciting ideas and projects from our fellow students. AeroNova_X is not just a platform for our current work, but a space where future aerospace innovations will come to life.</p>
+    </div>
+    <div class="secondary-section" id="project-name">
+      <h2>The Name</h2>
+      <p>The name "AeroNova_X" embodies the spirit of innovation, precision, and the limitless possibilities in the world of aeronautics. "Aero" is derived from the Greek word for air, symbolizing the team’s deep connection to the principles of flight and aerospace engineering. "Nova" reflects the concept of a new, bright star—representing the team's ambition to shine brightly in the realm of RC aviation and engineering. The "X" at the end adds an element of mystery and potential, hinting at the unknown frontiers the team is eager to explore, from advanced design innovations to cutting-edge technologies in the RC aviation world. AeroNova_X isn’t just a name—it’s a vision, a mission to push boundaries and redefine what’s possible in the skies, inspiring both current and future generations to reach for new heights.</p>
+    </div>
+    <div class="secondary-section" id="the-idea">
+      <h2>The Idea</h2>
+      <p>Our idea began with a simple thought: as a team, we wanted to share our work and the work of future students with the broader community. Why not make it available to other students and even professional recruiters? By showcasing our projects on AeroNova_X, we offer a platform where others can highlight their achievements, adding them to their CVs for future opportunities. However, we must not forget the true driving force behind this project: Teacher Choutri, who teaches the "TP Instrument de Bord" module. He graciously provided us with the opportunity to demonstrate our potential and showcase what we are capable of. Thanks to his support, we are here today, bringing this vision to life.</p>
+    </div>
+    <div class="secondary-section" id="sponsor">
+      <h2>Our Sponsors</h2>
+      <p>We would like to express our deepest gratitude to our sponsor, the University of Saad Dahleb Blida 1, for their continuous support and for providing the foundation that allowed us to embark on this journey. We are also incredibly thankful to Teacher Choutri, whose generosity and guidance have been instrumental in making our project possible. He provided us with the materials, funding, and all the necessary resources we needed. More importantly, he encouraged us to think outside the box, explore new ideas, and continuously search for innovative solutions. His belief in our potential has been a driving force, and we are truly grateful for his support.</p>
+      <img src="bbb.png" alt="Sponsor Logo" width="200px">
+    </div>
+  </section>
+
+  <!-- Main Section: The Project -->
+  <section id="project" class="section-project main-section">
+    <div class="secondary-section" id="presentation">
+      <h2>Presentation of the Project</h2>
+      <p>Explore the design and features of the AeroNovaX RC plane. The <strong>AeroNova_X_1</strong> is the first RC plane developed by our team as part of the AeroNova_X project. We chose to integrate advanced avionics and control systems, using the <strong>Pixhawk 2.4.8</strong> as the central microcontroller for flight management. The Pixhawk is a high-performance flight controller capable of stabilizing the plane, handling navigation via GPS, and enabling autonomous flight with precision. The airplane is powered by a <strong>Brushless Motor 2212</strong> with an 8×6 propeller and utilizes a <strong>LiPo battery</strong> for efficient power management. With a wingspan of 810 mm and a total weight of 560 g (with electronics), this plane was designed for performance, efficiency, and easy handling. Through detailed aerodynamic calculations, we’ve ensured that the plane can achieve the necessary lift and thrust to perform as required.</p>
+      <img src="project_presentation.jpg" alt="Project Presentation" width="400px">
+    </div>
+    <div class="secondary-section" id="materials">
+      <h2>Materials Used</h2>
+      <p>For the construction of the AeroNova_X_1, we used a combination of materials to achieve the right balance of strength and weight:</p>
+      <ul>
+        <li><strong>Maquette Paper</strong>: We began by creating models and prototypes with maquette paper to outline the initial design and shape of the plane. This step helped visualize the aerodynamic properties and fit of the components.</li>
+        <li><strong>Foam</strong>: Lightweight and durable foam was used to construct the main body, wings, and stabilizers. This material ensures that the plane remains light without sacrificing structural integrity.</li>
+        <li><strong>Hot Glue Gun</strong>: To assemble the various parts, we used a hot glue gun, which allowed us to securely bond the foam pieces and other components together.</li>
+        <li><strong>Ruler and Cutter</strong>: Precision tools such as rulers and cutters were essential for measuring and cutting the foam and paper accurately.</li>
+        <li><strong>Servos (Micro 9g)</strong>: For controlling the ailerons, elevator, and rudder, we used four micro servos. These small but powerful servos are essential for precise control of the flight surfaces.</li>
+        <li><strong>Pixhawk Flight Controller</strong>: The Pixhawk 2.4.8 was chosen for its robust performance in controlling all flight functions, including stabilization, navigation, and communication with ground control.</li>
+        <li><strong>Battery (LiPo 2200 mAh)</strong>: We used a 2200 mAh LiPo battery to power the plane, balancing flight time with weight. The battery’s capacity allows for around 10 minutes of flight.</li>
+      </ul>
+      <p>Additional tools and materials such as glue sticks, soldering equipment, wires, connectors, and carbon fiber rods were used in the assembly to reinforce certain parts of the plane and improve overall durability.</p>
+    </div>
+    <div class="secondary-section" id="work-processing">
+      <h2>Work Processing</h2>
+      <p>Our work on the AeroNova_X_1 followed a systematic project management process, ensuring that each stage was well-planned and executed.</p>
+      <ul>
+        <li><strong>Study and Aerodynamic Design</strong>: The first step was to perform a detailed study of the plane’s aerodynamics. We used the specifications from our previous RC plane project and applied them to AeroNova_X_1, making necessary adjustments for the new design. This step involved considering factors like the lift-to-weight ratio, wing shape, and the stall speed.</li>
+        <li><strong>Simulation and Validation</strong>: Once we had a design ready, we used <strong>XFLR5</strong>, a powerful aerodynamic simulation tool, to simulate the flight performance of the plane. This simulation helped us fine-tune the design, ensuring that the aircraft would fly stably and achieve the required performance parameters.</li>
+        <li><strong>Realization and Assembly</strong>: With the design validated, we moved on to the realization phase. This involved gathering all the materials, cutting and assembling the parts, and installing the components like the servos, Pixhawk, motor, and battery. This step required careful attention to detail to ensure that the weight distribution was optimal and that everything was securely mounted.</li>
+        <li><strong>First Flight Preparation</strong>: After successfully assembling the plane, we moved on to preparing for the first flight. This phase includes final checks on the flight controller, calibration of sensors, and verifying all control surfaces. Although the plane is ready for its first test flight, we are still refining certain aspects to ensure optimal performance.</li>
+      </ul>
+    </div>
+  </section>
+ <!-- Gallery Section with Image Slider -->
+<section id="gallery" class="main-section">
+  <h2>Gallery</h2>
+  <p>Explore our stunning collection of aircraft photos and design progress!</p>
+
+  <div id="imageSlider" class="gallery">
+    <div class="gallery-images">
+      <!-- Image slides (4 images in total) -->
+      <img src="https://www.entireflight.com/cdn/shop/articles/boeing_737.png?v=1697643716&width=1456" alt="Airplane 1">
+      <img src="https://drawdown.org/sites/default/files/solutions/airplanes-web.jpg" alt="Airplane 2">
+      <img src="https://www.flyingmag.com/uploads/2022/06/AdobeStock_249454423-scaled.jpeg?auto=webp&auto=webp&optimize=high&quality=70&width=1440" alt="Airplane 3">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRegnDQT13QF7C6288puUfzq-wE1qFAk6COA&s" alt="Airplane 4">
+    </div>
+
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+</section>
+
+<!-- Styles for Gallery and Slider -->
+<style>
+  /* Gallery Section Styles */
+  #gallery {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #gallery h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  #gallery p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+
+  .gallery {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Larger height for a better viewing experience */
+    overflow: hidden;
+  }
+
+  .gallery-images {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+
+  .gallery-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: none;  /* Hide all images initially */
+  }
+
+  .gallery-images img.active {
+    display: block;  /* Only show the active image */
+  }
+
+  /* Navigation Buttons */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .prev {
+    left: 20px;
+  }
+
+  .next {
+    right: 20px;
+  }
+</style>
+
+<!-- JavaScript for Image Slider -->
+<script>
+  let currentIndex = 0;
+
+  // Show the current image and hide others
+  function updateSlider() {
+    const images = document.querySelectorAll('.gallery-images img');
+    images.forEach((img, index) => {
+      if (index === currentIndex) {
+        img.classList.add('active');
+      } else {
+        img.classList.remove('active');
+      }
+    });
+  }
+
+  // Move to the next or previous slide
+  function moveSlide(step) {
+    const images = document.querySelectorAll('.gallery-images img');
+    const totalImages = images.length;
+
+    currentIndex = (currentIndex + step + totalImages) % totalImages; // Wrap around at the ends
+    updateSlider();
+  }
+
+  // Automatically change slide every 4 seconds
+  setInterval(() => moveSlide(1), 4000);
+
+  // Initialize slider
+  updateSlider();
+</script>
+
+<!-- Future Innovations Section -->
+  <section id="future-innovations" class="main-section secondary-section">
+    <h2>Future Innovations</h2>
+    <p>To all future students of AeroNova_X, I want you to know that this journey we’ve started is just the beginning of something extraordinary. The work you do here isn’t just about creating a website or designing an RC plane—it's about pushing the boundaries of what's possible, about dreaming big and daring to turn those dreams into reality. Every line of code you write, every design you shape, and every idea you bring to life will be a step forward in creating something that will inspire others for years to come. You are not just building a website, you are building a legacy, a testament to your dedication, creativity, and vision.
+
+Think of all the future students, just like you, who will look at the projects you’ve helped create and feel inspired to take on the challenges of tomorrow. The world is waiting for the next generation of innovators, engineers, and dreamers—and that generation is you. So, take pride in every task you take on, no matter how small it may seem. You have the power to make this site better, to create more projects, and to push AeroNova_X to heights we have yet to imagine. Your passion, your hard work, and your brilliance will inspire others to believe that anything is possible.
+
+This is your chance to leave a mark, to show the world what you’re made of. Don’t hold back. Keep improving, keep innovating, and keep dreaming—because what you do here will echo for generations. Let’s make something beautiful together, something that will change lives, and something that we can all be proud of. This is your time. The future is in your hands.</p>
+  </section>
+  
+<!-- Contact Us Section -->
+<section id="contact" class="main-section">
+    <div class="secondary-section">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-emails">
+        <h3>Reach Us Directly:</h3>
+        <ul>
+          <li><strong>my email:</strong> <a href="mailto:ayoub.btg123@gmail.com">ayoub.btg123@gmail.com</a></li>
+          <li><strong>Teacher's Email:</strong> <a href="k.choutri@gmail.com ">k.choutri@gmail.com </a></li>
+          <li><strong>University Email:</strong> <a href="ontact@univ-blida.dz">ontact@univ-blida.dz</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 AeroNova_X Project</p>
+  </footer>
+  
+  <script src="imgs.js"></script>
+  </body>
+  </html>
